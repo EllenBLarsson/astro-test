@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import { Section, Container, Block, Link } from "../../devlink/_Builtin/Basic";
 import { Footer } from "../../devlink";
 import { Navbar } from "../../devlink";
+import { MainButton } from "../../devlink";
+import { NumberList } from "../../devlink";
 ---
 
 <Layout>
@@ -33,19 +35,12 @@ import { Navbar } from "../../devlink";
           This is a simple test using Basic components with enhanced styling.
         </p>
         <div>
-          <Link
-            button={true}
-            options={{
-              href: "/",
-            }}
-            className="button-primary"
-          >
-            Back to home
-          </Link>
+          <MainButton />
         </div>
       </Block>
     </Container>
   </Section>
+  <NumberList />
   <Footer />
 </Layout>
 

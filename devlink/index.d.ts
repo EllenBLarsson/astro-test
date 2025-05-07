@@ -12,4 +12,6 @@ export * from "./devlink";
 export * from "./DevLinkProvider";
 export * from "./Footer";
 export * from "./LocaleDropdown";
+export * from "./MainButton";
 export * from "./Navbar";
+export * from "./NumberList";
